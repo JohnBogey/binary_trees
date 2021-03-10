@@ -4,7 +4,7 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_delete - goes through a binary tree using in-order traversal
+ * binary_tree_inorder - goes through a binary tree using in-order traversal
  * @tree: binary tree
  * @func: function
  * Return: nothing
