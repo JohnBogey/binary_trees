@@ -3,9 +3,9 @@
 int height(const binary_tree_t *tree);
 
 /**
-* binary_tree_balance - determines if a bianry tree is balanced  
-* @tree: node fo a binary tree 
-* Return: 
+* binary_tree_balance - determines if a bianry tree is balanced
+* @tree: node fo a binary tree
+* Return: 1 if balanced else 0
 */
 
 int binary_tree_balance(const binary_tree_t *tree)
@@ -24,7 +24,7 @@ int binary_tree_balance(const binary_tree_t *tree)
 int height(const binary_tree_t *tree)
 {
 	int left, right;
-	
+
 	if (!tree)
 		return (0);
 	if (!(tree->left) && !(tree->right))
